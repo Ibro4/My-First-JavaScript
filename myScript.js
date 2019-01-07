@@ -4,10 +4,7 @@ function myFunction () {
 
 //Initializing Variables
 
-var x = 5;
-var y = 6;
-var z = x + y;
 
-function myMathFunction() {
-    document.getElementById('math').innerHTML= z;
+function myMathFunction(x, y){
+    return x + y;
 }
